@@ -7,7 +7,7 @@ on:
 jobs:
   update-Readme:
     name: Automatically update my README  
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: dimitria-herrera/coding-stats-wakatime@v1.0.0
         with:
